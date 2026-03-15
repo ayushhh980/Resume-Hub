@@ -1,0 +1,7 @@
+{
+  "name": "Finance",
+  "layout": "professional",
+  "colors": {"primary": "#28a745"},
+  "sections": ["personal", "experience", "certifications", "skills", "education"],
+  "fonts": "Lato"
+}

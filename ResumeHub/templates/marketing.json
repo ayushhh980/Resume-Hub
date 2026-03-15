@@ -1,0 +1,7 @@
+{
+  "name": "Marketing",
+  "layout": "creative",
+  "colors": {"primary": "#ff6b6b"},
+  "sections": ["personal", "summary", "experience", "skills", "portfolio"],
+  "fonts": "Poppins"
+}

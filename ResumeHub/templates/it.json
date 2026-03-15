@@ -1,0 +1,7 @@
+{
+  "name": "IT/Software",
+  "layout": "two-column",
+  "colors": {"primary": "#007acc"},
+  "sections": ["personal", "skills", "projects", "experience", "education"],
+  "fonts": "Roboto"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Education",
+  "layout": "academic",
+  "colors": {"primary": "#17a2b8"},
+  "sections": ["personal", "education", "experience", "certifications", "research"],
+  "fonts": "Open Sans"
+}

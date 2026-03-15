@@ -1,0 +1,7 @@
+{
+  "name": "Healthcare",
+  "layout": "professional",
+  "colors": {"primary": "#dc3545"},
+  "sections": ["personal", "experience", "certifications", "skills", "education"],
+  "fonts": "Arial"
+}

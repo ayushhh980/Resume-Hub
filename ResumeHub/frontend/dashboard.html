@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - ResumeHub</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Dashboard</h1>
+    <button id="dark-toggle">🌙</button>
+    <button id="logout">Logout</button>
+  </header>
+  <div class="main-container">
+<div class="form-panel">
+      <div class="customize-panel">
+        <h3>Customize</h3>
+        <label>Color: <input type="color" id="theme-color" value="#007bff"></label>
+        <label>Font: 
+          <select id="theme-font">
+            <option value="Arial">Arial</option>
+            <option value="Roboto">Roboto</option>
+            <option value="Georgia">Georgia</option>
+            <option value="Lato">Lato</option>
+          </select>
+        </label>
+        <label>Spacing: <input type="range" id="theme-spacing" min="0.8" max="1.6" step="0.1" value="1"></label>
+        <label>Dark Mode: <input type="checkbox" id="theme-dark"></label>
+      </div>
+      <select id="template-select">
+
+        <option>Select Template</option>
+        <option value="it">IT/Software</option>
+        <option value="marketing">Marketing</option>
+        <option value="finance">Finance</option>
+        <option value="education">Education</option>
+        <option value="healthcare">Healthcare</option>
+        <option value="creative">Creative</option>
+        <option value="general">General</option>
+        <option value="internship">Internship</option>
+      </select>
+      <div id="sections-order" class="sortable-sections">
+        <div class="section-item" draggable="true" data-section="education">📚 Education</div>
+        <div class="section-item" draggable="true" data-section="experience">💼 Experience</div>
+        <div class="section-item" draggable="true" data-section="skills">⭐ Skills</div>
+        <div class="section-item" draggable="true" data-section="projects">🚀 Projects</div>
+        <div class="section-item" draggable="true" data-section="certifications">🏆 Certifications</div>
+        <div class="section-item" draggable="true" data-section="portfolio">🎨 Portfolio</div>
+      </div>
+      <div id="step-container">
+
+        <!-- Step 1: Personal -->
+        <div class="step active" data-step="1">
+          <h2>Personal Information</h2>
+          <input id="personal-fullName" placeholder="Full Name" required>
+          <input id="personal-professionalTitle" placeholder="Professional Title">
+          <input id="personal-email" type="email" placeholder="Email" required>
+          <input id="personal-phone" placeholder="Phone">
+          <input id="personal-address" placeholder="Address">
+          <input id="personal-linkedin" placeholder="LinkedIn">
+          <input id="personal-github" placeholder="GitHub">
+          <input type="file" id="profile-photo" accept="image/*">
+          <div class="nav-buttons">
+            <button onclick="nextStep()">Next</button>
+          </div>
+        </div>
+    <!-- Step 2: Education (multi) -->
+    <div class="step" data-step="2">
+      <h2>Education</h2>
+      <div id="education-entries">
+        <div class="entry">
+          <input placeholder="Degree" class="ed-degree">
+          <input placeholder="Field" class="ed-field">
+          <input placeholder="Institution" class="ed-institution">
+          <input placeholder="Start Year" class="ed-start">
+          <input placeholder="End Year" class="ed-end">
+          <input placeholder="CGPA" class="ed-cgpa">
+          <textarea placeholder="Description" class="ed-desc"></textarea>
+          <button onclick="removeEntry(this)">Remove</button>
+        </div>
+      </div>
+      <button onclick="addEducationEntry()">Add Education</button>
+      <div class="nav-buttons">
+        <button onclick="prevStep()">Previous</button>
+        <button onclick="nextStep()">Next</button>
+      </div>
+    </div>
+    <!-- Step 3: Work Experience (multi) -->
+    <div class="step" data-step="3">
+      <h2>Work Experience</h2>
+      <div id="experience-entries">
+        <div class="entry">
+          <input placeholder="Job Title" class="exp-title">
+          <input placeholder="Company" class="exp-company">
+          <input placeholder="Type" class="exp-type">
+          <input placeholder="Start" class="exp-start">
+          <input placeholder="End" class="exp-end">
+          <textarea placeholder="Description" class="exp-desc"></textarea>
+          <textarea placeholder="Achievements" class="exp-achieve"></textarea>
+          <button onclick="removeEntry(this)">Remove</button>
+        </div>
+      </div>
+      <button onclick="addExperienceEntry()">Add Experience</button>
+      <div class="nav-buttons">
+        <button onclick="prevStep()">Previous</button>
+        <button onclick="nextStep()">Next</button>
+      </div>
+    </div>
+    <!-- Add other steps: Skills, Projects, Certifications, Achievements, Languages, Portfolio, Social Profiles -->
+    <!-- Step 4: Skills -->
+
+    <div class="step" data-step="4">
+      <h2>Skills</h2>
+      <input id="skills" placeholder="Skills (comma separated)">
+      <div class="nav-buttons">
+        <button onclick="prevStep()">Previous</button>
+        <button onclick="nextStep()">Next</button>
+      </div>
+    </div>
+    <div class="step" data-step="5">
+      <h2>Portfolio (Creative)</h2>
+      <div id="portfolio-entries">
+        <div class="entry">
+          <input class="port-title" placeholder="Portfolio Title">
+          <textarea class="port-desc" placeholder="Description"></textarea>
+          <input class="port-link" placeholder="Project Link">
+          <input type="file" class="port-image" accept="image/*">
+          <button onclick="removeEntry(this)">Remove</button>
+        </div>
+      </div>
+      <button onclick="addPortfolioEntry()">Add Portfolio</button>
+      <div class="nav-buttons">
+        <button onclick="prevStep()">Previous</button>
+        <button onclick="nextStep()">Next</button>
+      </div>
+    </div>
+
+    <!-- Portfolio for creative -->
+    <div class="step" data-step="5">
+      <h2>Portfolio (Creative only)</h2>
+      <div id="portfolio-entries">
+        <div class="entry">
+          <input placeholder="Portfolio Title" class="port-title">
+          <textarea placeholder="Description" class="port-desc"></textarea>
+          <input placeholder="Project Link" class="port-link">
+          <input type="file" accept="image/*" class="port-image">
+          <button onclick="removeEntry(this)">Remove</button>
+        </div>
+      </div>
+      <button onclick="addPortfolioEntry()">Add Portfolio</button>
+      <div class="nav-buttons">
+        <button onclick="prevStep()">Previous</button>
+        <button onclick="nextStep()">Next</button>
+      </div>
+    </div>
+
+    <!-- Step 10: Review/Save -->
+    <div class="step" data-step="10">
+      <h2>Review & Save</h2>
+      <button id="save-resume">Save Resume</button>
+      <button id="preview-btn">Preview</button>
+    </div>
+    <div class="preview-panel">
+      <iframe id="live-preview" src="preview.html"></iframe>
+    </div>
+  </div>
+  <script src="js/app.js"></script>
+  <script src="js/dashboard.js"></script>
+  <script src="js/spellcheck.js"></script>
+
+</body>
+</html>
+

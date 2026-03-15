@@ -1,0 +1,7 @@
+{
+  "name": "Creative",
+  "layout": "artistic",
+  "colors": {"primary": "#6f42c1"},
+  "sections": ["personal", "portfolio", "skills", "experience", "education"],
+  "fonts": "Playfair Display"
+}

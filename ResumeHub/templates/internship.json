@@ -1,0 +1,7 @@
+{
+  "name": "Internship",
+  "layout": "simple",
+  "colors": {"primary": "#fd7e14"},
+  "sections": ["personal", "education", "skills", "projects", "experience"],
+  "fonts": "Verdana"
+}

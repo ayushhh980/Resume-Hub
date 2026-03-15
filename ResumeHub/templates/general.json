@@ -1,0 +1,7 @@
+{
+  "name": "General",
+  "layout": "balanced",
+  "colors": {"primary": "#6c757d"},
+  "sections": ["personal", "summary", "experience", "skills", "education"],
+  "fonts": "Helvetica"
+}

@@ -1,0 +1,250 @@
+resume designer  ( resumeHub.com ) (ayush980.github.io/resumeHub)
+
+user apni information input kre toh wo use ek pamplate me design krke show kre 
+
+types of resume design:(field according )
+    for it / software
+    for marketing
+    for finance
+    for education
+    for healthcare
+    for creative fields
+    for general fields
+
+features:
+1. User-friendly interface for inputting personal and professional information.
+2. Multiple resume templates categorized by industry.   
+3. Customizable sections for work experience, education, skills, and more.  
+4. Option to add a professional summary or objective statement.
+5. Ability to upload a profile picture.
+6. Export options in various formats (PDF, Word, etc.).
+7. Real-time preview of the resume design.
+9. Integration with LinkedIn for easy import of professional information.
+10. Mobile-friendly design for creating and editing resumes on the go.
+13. Spell check and grammar suggestions to ensure a polished resume.
+15. Ability to share the resume directly via email or social media platforms.
+20. Secure storage of user data with options for account creation and login.
+22. Option to include a portfolio section for creative professionals to showcase their work.
+23. Customizable color schemes and fonts to personalize the resume design.
+24. Option to add links to online profiles, such as GitHub for IT professionals or Behance for creative fields.
+25. light and dark mode for better user experience.
+26. full screen editing mode for distraction-free resume creation.
+
+
+# Resume Designer – Input Fields
+
+    ## 1. Personal Information
+
+        * Full Name
+        * Profile Picture Upload
+        * Professional Title
+        * Email Address
+        * Phone Number
+        * Address (City, State, Country)
+        * LinkedIn Profile URL
+        * GitHub / Portfolio URL
+        * Personal Website (optional)
+
+    ---
+
+    ## 2. Professional Summary / Objective
+
+        * Professional Summary (textarea)
+        * Career Objective
+
+    ---
+
+    ## 3. Education Details (Multiple Entries)
+
+        * Degree / Qualification
+        * Field of Study
+        * College / University Name
+        * Start Year
+        * End Year
+        * CGPA / Percentage
+        * Description (optional)
+
+    ---
+
+    ## 4. Work Experience (Multiple Entries)
+
+        * Job Title
+        * Company Name
+        * Employment Type (Full-time / Internship / Freelance)
+        * Start Date
+        * End Date
+        * Job Description / Responsibilities
+        * Achievements
+
+    ---
+
+    ## 5. Skills
+
+        * Technical Skills
+        * Soft Skills
+        * Skill Level (Beginner / Intermediate / Expert)
+
+    ---
+
+    ## 6. Projects
+
+        * Project Title
+        * Project Description
+        * Technologies Used
+        * Project Link (GitHub / Website)
+        * Project Duration
+
+    ---
+
+    ## 7. Certifications
+
+        * Certificate Name
+        * Issuing Organization
+        * Issue Date
+        * Credential URL
+
+    ---
+
+    ## 8. Achievements / Awards
+
+        * Achievement Title
+        * Description
+        * Date
+
+    ---
+
+    ## 9. Languages
+
+        * Language
+        * Proficiency Level (Basic / Intermediate / Fluent)
+
+    ---
+
+    ## 10. Portfolio (For Creative Fields)
+
+        * Portfolio Title
+        * Portfolio Description
+        * Portfolio Link
+        * Image Upload
+
+    ---
+
+    ## 11. Interests / Hobbies
+
+        * Interest / Hobby
+
+    ---
+
+    ## 12. Social Profiles
+
+        * LinkedIn
+        * GitHub
+        * Behance
+        * Dribbble
+    * Twitter
+
+    ---
+
+    ## 13. Custom Section
+
+        * Section Title
+        * Content
+
+    ---
+
+    ## 14. Resume Design Customization
+
+        * Resume Template Type
+
+        * IT / Software
+        * Marketing
+        * Finance
+        * Education
+        * Healthcare
+        * Creative
+        * General
+        * Color Theme
+        * Font Style
+        * Layout Style
+        * Page Format (A4 / US Letter)
+
+    ---
+
+    ## 15. Export & Sharing Options
+
+        * Download Format (PDF / Word / PNG)
+        * Share Link
+        * Email Resume
+
+    ---
+
+    ## Suggested Form Flow
+
+        1. Personal Information
+        2. Education
+        3. Work Experience
+        4. Skills & Projects
+        5. Certifications & Achievements
+        6. Template & Design Selection
+        7. Resume Preview
+        8. Download / Share
+
+
+# Target Job Role
+
+    * IT / Software
+    * Marketing
+    * Finance
+    * Education
+    * Healthcare
+    * Creative Fields
+    * General Fields
+    * Internship
+
+# 1. IT / Software
+    * Clean and modern design with a focus on technical skills and projects.
+    * Sections for programming languages, frameworks, and tools.
+    * Option to include a portfolio of coding projects.
+
+# 2. Marketing
+    * Creative and visually appealing design with a focus on marketing campaigns and achievements.
+    * Sections for marketing skills, certifications, and case studies.
+    * Option to include a portfolio of marketing materials.
+
+# 3. Finance
+    * Professional and structured design with a focus on financial skills and experience.
+    * Sections for financial certifications, software proficiency, and key achievements.
+    * Option to include a portfolio of financial reports or analyses.
+
+# 4. Education
+    * Clean and academic design with a focus on educational qualifications and teaching experience.
+    * Sections for certifications, research projects, and publications.
+    * Option to include a portfolio of teaching materials or research work.
+
+# 5. Healthcare
+    * Professional and clean design with a focus on healthcare experience and certifications.
+    * Sections for medical skills, certifications, and key achievements.
+    * Option to include a portfolio of case studies or research work.
+
+# 6. Internship
+    * Simple and clean design with a focus on relevant skills and experience for entry-level positions.
+    * Sections for internships, projects, and relevant coursework.
+    * Option to include a portfolio of academic projects or volunteer work.
+    
+# 7. Creative Fields
+    * Artistic and visually appealing design with a focus on creative skills and projects.
+    * Sections for creative skills, certifications, and key achievements.
+    * Option to include a portfolio of creative work, such as design projects, writing samples,
+    * or multimedia projects.
+
+# 8. General Fields
+    * Versatile and clean design suitable for a wide range of industries.
+    * Sections for general skills, certifications, and key achievements.
+    * Option to include a portfolio of work relevant to the target job role.
+
+# Drag & Drop Section Builder
+
+    * Users can drag and drop sections to customize the order of their resume.
+    * Sections include Personal Information, Education, Work Experience, Skills, Projects, Certifications, Achievements, Languages, Portfolio, Interests, Social Profiles, and Custom Sections.
+
+
