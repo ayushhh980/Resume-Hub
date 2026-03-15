@@ -14,10 +14,11 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('export-pdf').onclick = exportPDF;
 
   function renderResume(template, data) {
+    const personal = data.personalInformation || {};
     return `
       <div class="resume">
-        <h1>${data.personal?.fullName || ''}</h1>
-        <p>${data.personal?.email || ''}</p>
+        <h1>${personal.fullName || ''}</h1>
+        <p>${personal.email || ''}</p>
         ${template.sections.map(sec => `<section><h2>${sec}</h2></section>`).join('')}
       </div>
     `;
